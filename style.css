@@ -1,0 +1,33 @@
+h3{
+    font-size:25px !important;
+}
+.btn-success:hover{
+    background:red;
+}
+
+canvas{
+    animation-name:boi;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes boi{
+    from{
+        box-shadow: 5px 5px 10px blue;
+        border-radius: 10px;
+        border-style:groove;
+        border-color:gold;
+        background-color:cyan;
+        border-width:10px;
+
+    }
+    to{
+        box-shadow: 5px 5px 10px purple;
+        border-radius:20px;
+        border-style:double;
+        border-color:red;
+        background-color:royalblue;
+        border-width:20px;
+       
+    }
+}
